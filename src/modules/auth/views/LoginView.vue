@@ -88,8 +88,8 @@ export default {
     const { signInUser } = useAuth();
     const router = useRouter();
     const userForm = ref({
-      email: 'nelson@gmail.com',
-      password: 'Nelson123',
+      email: '',
+      password: '',
     });
 
     return {
